@@ -1,0 +1,89 @@
+.alphabet button, .categories button {
+  margin: 5px;
+  padding: 12px;
+  border-radius: 7px;
+  border-width: 1px;
+  border-color: #0D0D0D;
+  background-color: #F2EAE4;
+  margin-top: 15px;
+  border-style: solid;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: perpetua;
+  
+}
+.drinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.drinks div {
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #91BBF2;
+  background-color: #F2F2F2;
+  border-style: solid;
+  margin-top: 15px;
+}
+.drinks img {
+  width: 100%;
+  border-radius: 8px;
+
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  border: 2px solid #91BBF2;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+
+  &:focus {
+    border-color: #91BBF2;
+    box-shadow: 0 0 10px rgba(11, 134, 172, 0.5);
+  }
+}
+
+.drinks-text{
+  font-size: 15px;
+  font-family: perpetua;
+}
+
+.title-text{
+  font-size: 38px;
+  font-family: perpetua;
+  color: #BF5D54;
+}
+
+.drink-title{
+  font-size: 30px;
+  font-family: perpetua;
+  color: #BF5D54;
+}
+
+.drink-ingridients{
+  font-size: 20px;
+  font-family: perpetua;
+}
+
+.drink-instructions{
+  font-size: 18px;
+  font-family: perpetua;
+}
+
+.favorite-button{
+  font-size: 17px;
+  font-family: perpetua;
+  font-weight: bold;
+  border-radius: 9px;
+  border: 3px solid #91BBF2;
+  cursor:pointer;
+}
+
