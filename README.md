@@ -1,29 +1,63 @@
-# CocktailTeste
+# 🍹 Cocktail Finder
 
-This template should help get you started developing with Vue 3 in Vite.
+Um aplicativo Vue 3 que consome a API **The Cocktail DB** para exibir informações sobre diferentes drinks. O usuário pode pesquisar drinks pelo nome, explorar categorias, buscar por inicial e favoritar seus drinks preferidos.
 
-## Recommended IDE Setup
+## 🚀 Funcionalidades
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+✅ Exibir uma lista de categorias de drinks para filtragem.\
+✅ Interativo (A-Z) para listar drinks por inicial.\
+✅ Campo de busca para encontrar drinks pelo nome.\
+✅ Permitir favoritar drinks e salvar no Pinia.\
+✅ Exibir lista de drinks com imagem e nome.\
+✅ Design responsivo para mobile e desktop.\
+✅ Página de detalhes do drink com: 
 
-## Customize configuration
+- Imagem
+- Nome
+- Ingredientes
+- Instruções de preparo 
 
-See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Project Setup
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Vue 3](https://vuejs.org/) - Framework frontend
+- [Vite](https://vitejs.dev/) - Build tool
+- [Pinia](https://pinia.vuejs.org/) - Gerenciamento de estado
+- [Vue Router](https://router.vuejs.org/) - Gerenciamento de rotas
+- [Axios](https://axios-http.com/) - Requisições HTTP
+
+---
+
+## 📦 Instalação e Execução
+
+1. **Clone o repositório:**
 
 ```sh
-npm install
+ git clone https://github.com/mariafernandarsantos/CocktailTeste.git
+ cd CocktailTeste
 ```
 
-### Compile and Hot-Reload for Development
+2. **Instale as dependências:**
 
 ```sh
-npm run dev
+ npm install
 ```
 
-### Compile and Minify for Production
+3. **Execute o projeto:**
 
 ```sh
-npm run build
+ npm run dev
 ```
+
+4. **Acesse no navegador:**
+
+```
+ http://localhost:5173
+```
+
+---
+
+Feito por Maria Fernanda Rodrigues Santos (https://github.com/mariafernandarsantos) 🚀
+
